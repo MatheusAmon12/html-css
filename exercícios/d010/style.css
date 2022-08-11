@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body{
+    background-color: #E9E6C3;
+    margin: 0px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to top, #0D331C, #1D6C40);
+    padding: 10px;
+}
+
+header > h1{
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+header > p{
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    color: #0D331C;
+    background-color: #1D6C40;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+main{
+    background-color: white;
+    margin: 0px 115px 0px 115px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    line-height: 30px;
+}
+
+h1#principal{
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h2.subtitulos{
+    padding-left: 5px;
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0D331C;
+    background-image: linear-gradient(to right, #83DDAB, white);
+}
+
+p.paragrafos{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.posicaoimagem{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#secaovideo{
+    background-color: #0D331C;
+    margin: -10px;
+}
+
+section > h3{
+    background-color: #0D331C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 15px;
+    margin: -5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.secaoavert{
+    background-color: #83DDAB;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 25px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section > ul{
+    display: inline-block;
+    margin-right: 350px;
+    text-decoration: none;
+}
+
+section > p > a{
+    color: #0D331C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+strong{
+    color: #1D6C40;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #0D331C;
+    margin: 0px;
+}
+
+.links{
+    color: #0D331C;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #83DDAB;
+    padding: 5px;
+}
