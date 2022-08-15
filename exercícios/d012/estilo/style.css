@@ -63,15 +63,31 @@ section{
     font-size: 2.5vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 .imagem{
-    background-color: rgb(37, 37, 37);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
 }
 
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 4px 7px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+#imgjoaninha{
+    background-image: url("../imagens/joaninha.jpg");
+}
+
+#imgpapel{
+    background-image: url("../imagens/papel.jpg");
 }
 
 footer{
