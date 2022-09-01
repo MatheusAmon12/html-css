@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /* paisagem */
+
+body{
+    background: url("../imagens/cev-landscape.jpg")  left bottom no-repeat;
+}
