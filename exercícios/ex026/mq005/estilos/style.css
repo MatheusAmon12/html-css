@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url("../fontes/bebas_neue/BebasNeue-Regular.ttf") format('truetype');
+    font-weight: light;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,17 +17,21 @@ body,html{
 }
 
 header{
-    background-color: gray;
+    background-color: #0A2D66;
 }
 
 header > h1{
     padding: 10px;
     text-align: center;
 }
+header > h1 > a{
+    text-decoration: none;
+    color: white;
+}
 
 #burguer{
     color: white;
-    background-color: rgb(46, 46, 46);
+    background-color: #0A2D66;
     display: block;
     text-align: center;
     padding: 10px;
@@ -29,7 +39,7 @@ header > h1{
 }
 
 #burguer:hover{
-    background-color: white;
+    background-color: #294066;
     color: black;
 }
 menu{
@@ -45,26 +55,29 @@ menu > ul > li > a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(49, 49, 49);
+    background-color: #0A2D66;
     color: white;
-    border-top: 2px solid gray;
+    border-top: 2px solid #294066;
 
 }
 
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: #294066;
+    text-decoration: underline;
 }
 
 main{
-    width: 90vw;
+    max-width: 768px;
     background-color: white;
     margin: auto;
     padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 3.5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
 }
 
 article > h2{
+    font-family: "Bebas Neue";
     padding-bottom: 20px;
 }
 
@@ -72,4 +85,25 @@ article > p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+}
+
+footer{
+    background-color: gray;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+
 }

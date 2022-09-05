@@ -1,0 +1,95 @@
+/* Typical Devices Breakpoint 2022
+
+pequenas telas: até 600px
+celular: de 601 até 768px
+tablet: de 769 até 992px
+desktop: de 993 até 1200px
+grandes telas: acima de 1200px
+
+*/
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+    }
+    header{
+        display: none;
+    } 
+
+    main{
+        width: 100vw;
+        box-shadow: 0px;
+        border-radius: 0px;
+    }
+
+    article::after{
+        content: "Site desenvolvido para github.io/matheusamon12";
+        text-decoration: overline;
+    } 
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    menu{
+        display: block;
+    }
+
+    menu > ul{
+        columns: 5;
+        width: 50vw;
+        margin: auto;
+    }
+
+    menu > ul > li > a{
+        margin-right: -16px;
+        background-color: #0A2D66;
+
+    }
+
+    #burguer{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    menu{
+        display: block;
+    }
+
+    menu > ul{
+        columns: 5;
+        width: 50vw;
+        margin: auto;
+    }
+
+    menu > ul > li > a{
+        margin-right: -16px;
+        background-color: #0A2D66;
+
+    }
+
+    #burguer{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px){
+    menu{
+        display: block;
+    }
+
+    menu > ul{
+        columns: 5;
+        width: 50vw;
+        margin: auto;
+    }
+
+    menu > ul > li > a{
+        margin-right: -16px;
+        background-color: #0A2D66;
+
+    }
+
+    #burguer{
+        display: none;
+    }
+}
