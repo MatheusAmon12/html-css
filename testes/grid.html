@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            border: 2px solid red;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .grid-container{
+            display: grid;
+            gap: 12px;
+            grid-template-columns: 200px auto 200px;
+            height: 800px;
+            
+
+            align-items: stretch;
+        }
+        .grid-item{
+            background-color: rgb(0 0 255 / 14%);
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea neque provident doloremque reprehenderit soluta fugit perspiciatis amet. Eos nobis eius quisquam, obcaecati omnis voluptas odit porro impedit veniam incidunt.</div>
+            <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </div>
+            <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea neque provident doloremque reprehenderit soluta fugit perspiciatis amet. Eos nobis eius quisquam, obcaecati omnis voluptas odit porro impedit veniam incidunt.</div>
+            <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </div>
+            <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </div>
+            <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea neque provident doloremque reprehenderit soluta fugit perspiciatis amet. Eos nobis eius quisquam, obcaecati omnis voluptas odit porro impedit veniam incidunt.</div>
+            <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </div>
+        </div>
+    </div>
+</body>
+</html>
