@@ -14,29 +14,35 @@
         .flex-item:nth-child(odd){
             background-color: blue;
             color: white;
+            padding: 10px;
+        }
+
+        .flex-item > h1{
+            margin-bottom: 20px;
         }
         .flex-item:nth-child(even){
             background-color: red;
             color: white;
+            padding: 10px;
         }
         .flex-container{
             margin: 10px;
-            border: 1px solid black;
+            border: 2px solid black;
         }
     </style>
     <style>
         .flex-container{
-            height: 500px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            
+            height: 800px;
+            display: flex ;
+            flex-direction: row ;
             align-content: center;
+
         }
         .flex-item{
             flex-basis: 200px;
             flex-grow: 1;
         }
+
     </style>
 </head>
 <body>
@@ -49,7 +55,7 @@
             <h1 style="font-size:  3rem;">Item 2</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur incidunt?</p>
         </div>
-        <!--<div class="flex-item ">
+        <div class="flex-item ">
             <h1 style="font-size:  3rem;">Item 3</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, tenetur incidunt? Asperiores consequatur recusandae saepe incidunt, aliquam maiores repellendus amet ex. Itaque similique tempore illo quidem totam eaque at ab.</p>
         </div>
