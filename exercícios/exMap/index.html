@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+</head>
+<body>
+    <!--Com o map podemos fazer algo incrível, mapear áreas de uma imagem de forma que ela se torne clicável e redirecionável para um link externo, nesse exemplo dividi as partes correspondentes a retângulos, circulos e triângulo, peguei as coordenadas no Photoshop e direcionei cada uma para sites de explicação sobre figuras planas.-->
+    <img src="fig-geom.jpg" alt="Figuras Geométrica Plana" usemap="#imagem_mapa">
+    <map name="imagem_mapa">
+        <area shape="rect" coords="76,135,380,450" href="https://mundoeducacao.uol.com.br/matematica/quadrados.htm#:~:text=Quadrado%20%C3%A9%20uma%20figura%20geom%C3%A9trica,e%20por%20quatro%20%C3%A2ngulos%20retos.&text=O%20quadrado%20%C3%A9%20uma%20figura,congruentes%20e%20quatro%20%C3%A2ngulos%20retos." alt="Quadrado" target="_blank">
+        <area shape="poly" coords="101,610,373,609,374,915" href="https://mundoeducacao.uol.com.br/matematica/triangulos.htm#:~:text=Um%20tri%C3%A2ngulo%20%C3%A9%20uma%20figura,%C3%A2ngulos%20internos%20ou%20tr%C3%AAs%20v%C3%A9rtices." alt="Triângulo" target="_blank">
+        <area shape="circle" coords="527,637,113" href="https://mundoeducacao.uol.com.br/matematica/circulo-circunferencia.htm#:~:text=O%20c%C3%ADrculo%2C%20por%20sua%20vez,cuja%20fronteira%20%C3%A9%20uma%20circunfer%C3%AAncia." alt="Círculo">
+    </map>
+</body>
+</html>
